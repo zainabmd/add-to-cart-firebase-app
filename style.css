@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #d1ebcb;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+img{
+    margin: 0 auto;
+    width: 150px;
+}
+#add-btn{
+    background-color:#106944;
+    border: none;
+    border-radius:5px;
+    padding:10px;
+    color:#ffffff;
+    font-size: 20px;
+
+}
+#input-field{
+    background-color:#ececec;
+    color:#106944 ;
+    font-size: 20px;
+    border: none;
+    border-radius:5px;
+    padding:10px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin:10px 0;
+    font-weight: 600;
+}
